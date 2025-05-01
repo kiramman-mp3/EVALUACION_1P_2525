@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
-### Carrera de Ingeniería en Software  
+# Universidad Técnica de Ambato
+## Facultad de Ingenieria en Sistemas, Electronica e Industrial.  
+### Carrera de Ingeniería en Software.  
 
-**Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Asignatura:** MyCS - Manejo y Configuración de Software  
+**Nombre del Estudiante:** Johan Rodríguez
+**Fecha:** Miercoles, 30 de Abril del 2025 
 
 ---
 
@@ -38,8 +38,21 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
-
+1. Git clone: Es la manera en la que se copia un repositorio publico de GitHub a un repositorio local, este comando copia todos los historiales de los commits del proyecto clonado.
+2. fork: Permite copiar de un repositorio publico de GitHub a tu cuenta personal de GitHub permitiendo así trabajar en el como si tu fueras el propietario. Y tambien permite que si quieres envies la copia de tu repositorio al dueño.
+3. Git pull: Sirve para traer los cambios de un repositorio remoto a la copia que tu tienes en local.
+4. ¿Cómo se realizó el fork?: \
+    El fork que se realizo primero se tuvo que ir al perfil del docente y darle a la parte del fork
+    ![alt text](image.png)
+    Y asignar el nombre con el que irá a su proyecto
+    ![alt text](image-1.png)
+    Ahora ya estará en la nube de GitHub.
+5. ¿Cómo se realizó el clone del fork? \
+    Se accedió al repositorio y se utilizó el link seguido del comando 'git clone https://github.com/kiramman-mp3/EVALUACION_1P_2525.git'
+    ![alt text](image-2.png)
+6. ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original? \
+    Se utilizó el comando 'git remote -v' para ver cual es el link del repositorio y como sale 'kiramman-mp3' se que es el mio.
+    ![alt text](image-3.png)
 ---
 
 ## Pregunta 2 (1 punto)
@@ -58,8 +71,19 @@
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
+1. Se creó el archivo .gitignore.
+![alt text](image-4.png)
+2. Se agregaron las exclusiones planteadas.
+![alt text](image-5.png)
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+El archivo .gitignore sirve para poder excluir archivos a voluntad de nosotros del seguimiento de Git. En este caso se va a hacer que no se sigan archivos temporales ni logs. Pero se puede ocupar para ocultar archivos no relacionados al proyecto, claves de apis o archivos delicados.
+
+1. Para probar su funcionamiento se crearon los archivos 'log.log', 'prueba.log' y 'temp/prueba.txt'.
+![alt text](image-6.png)
+2. Con 'git status' se prueba si los archivo estan en seguimiento y con 'ls' se ve si existen. Y como podemos ver existen pero git no los sigue.
+![alt text](image-7.png)
+
 
 ---
 
@@ -90,6 +114,14 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+Se debe de inicializar el git flow con el comando 'Git flow init'.
+![alt text](image-8.png)
+Se crea una nueva rama para la funcionalidad ingresar-encabezado con 'Git flow start ingresar-encabezado'
+![alt text](image-9.png)
+Se finaliza la funcionalidad con 'Git flow finish ingresar-encabezado'
+![alt text](image-10.png)
+
+1. Para mi el GitFlow es muy util ya que de esta manera se facilita el entendimiento del flujo del trabajo, se tiene un control de versiones mas limpio y permite tener una escalibidad mejor a diferencia de trabajar sin este.
 
 ---
 
@@ -120,9 +152,20 @@
 - El enlace al pull request.
 - Una explicación de cómo se comprobó que el repositorio requería revisión antes de aceptar el pull request (por ejemplo, a través del mensaje mostrado por GitHub).
 
+1. Primeramente se debe de crear un Issue en el repositorio del cual se forkeo.
+![alt text](image-12.png)
+![alt text](image-11.png)
+
+2. El numero del issue es el #11
+![alt text](image-13.png)
+
+
+
+
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+Primeramente se debe de 
 
 ---
 
